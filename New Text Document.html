@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diana Business Concept</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #ffd700;
+        }
+        header {
+            background: #111;
+            color: #ffd700;
+            padding: 1rem 0;
+            text-align: center;
+            border-bottom: 2px solid #ffd700;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #222;
+            border-bottom: 1px solid #ffd700;
+        }
+        nav a {
+            color: #ffd700;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2rem 0;
+        }
+        .services, .pricing, .contact {
+            background: #111;
+            margin: 1rem 0;
+            padding: 2rem;
+            border-radius: 5px;
+            border: 1px solid #ffd700;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        }
+        .services h2, .pricing h2, .contact h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #ffd700;
+            padding-bottom: 0.5rem;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact label {
+            margin: 0.5rem 0;
+        }
+        .contact input, .contact textarea {
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ffd700;
+            border-radius: 5px;
+            background: #222;
+            color: #ffd700;
+        }
+        .contact button {
+            padding: 1rem;
+            background: #ffd700;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+        .contact button:hover {
+            background: #e5c100;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #111;
+            color: #ffd700;
+            border-top: 2px solid #ffd700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Diana Business Concept</h1>
+    </header>
+    <nav>
+        <a href="#services">Servicii</a>
+        <a href="#pricing">Tarife</a>
+        <a href="#contact">Date de contact</a>
+        <a href="#schedule">Programează o discuție</a>
+    </nav>
+    <div class="container">
+        <section id="services" class="services">
+            <h2>Servicii</h2>
+            <ul>
+                <li>Infiintare S.R.L</li>
+                <li>Înfiintare P.F.A/Intreprinderi familiale</li>
+                <li>Deschidere/ Inchidere punct de lucru</li>
+                <li>Cesiune/Schimbare asociati sau administrator</li>
+                <li>Schimbare sediu social</li>
+                <li>Dizolvare SRL</li>
+                <li>Radiere PFA/Întreprinderi familiale</li>
+                <li>Obtinere certificat constatator</li>
+                <li>Actualizare act constitutiv</li>
+                <li>Redactare contracte închiriere, comodat, cesiune, vânzare-cumparare automobil</li>
+            </ul>
+        </section>
+        <section id="pricing" class="pricing">
+            <h2>Tarife</h2>
+            <p>Pentru detalii despre tarifele noastre, vă rugăm să ne contactați direct.</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Date de contact</h2>
+            <p>📱 Tel./WhatsApp: 0730191477</p>
+            <p>📩 Email: <a href="mailto:office_businessconcept@yahoo.com" style="color: #ffd700;">office_businessconcept@yahoo.com</a></p>
+        </section>
+        <section id="schedule" class="contact">
+            <h2>Programează o discuție</h2>
+            <form>
+                <label for="name">Nume:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mesaj:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Diana Business Concept</p>
+    </footer>
+</body>
+</html>
